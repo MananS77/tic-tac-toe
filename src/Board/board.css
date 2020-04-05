@@ -1,0 +1,23 @@
+.board {
+    width: 31rem;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square {
+    text-align: center;
+    width: 10rem;
+    height: 10rem;
+    border: 1px solid black;
+}
+
+.square:hover {
+    background-color: #EEF5DB;
+    cursor: pointer;
+}
+
+.symbol {
+    vertical-align: middle;
+    font-size: 3rem;
+}
